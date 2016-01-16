@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBC24AF51C441C1A00FDEE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC24AF41C441C1A00FDEE31 /* AppDelegate.swift */; };
+		CBC24AF71C441C1A00FDEE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC24AF61C441C1A00FDEE31 /* ViewController.swift */; };
+		CBC24AFA1C441C1A00FDEE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC24AF81C441C1A00FDEE31 /* Main.storyboard */; };
+		CBC24AFC1C441C1A00FDEE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC24AFB1C441C1A00FDEE31 /* Assets.xcassets */; };
+		CBC24AFF1C441C1A00FDEE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC24AFD1C441C1A00FDEE31 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBC24AF11C441C1A00FDEE31 /* iPepsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPepsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC24AF41C441C1A00FDEE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBC24AF61C441C1A00FDEE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBC24AF91C441C1A00FDEE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBC24AFB1C441C1A00FDEE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBC24AFE1C441C1A00FDEE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBC24B001C441C1A00FDEE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBC24AEE1C441C1A00FDEE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBC24AE81C441C1A00FDEE31 = {
+			isa = PBXGroup;
+			children = (
+				CBC24AF31C441C1A00FDEE31 /* iPepsi */,
+				CBC24AF21C441C1A00FDEE31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC24AF21C441C1A00FDEE31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC24AF11C441C1A00FDEE31 /* iPepsi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC24AF31C441C1A00FDEE31 /* iPepsi */ = {
+			isa = PBXGroup;
+			children = (
+				CBC24AF41C441C1A00FDEE31 /* AppDelegate.swift */,
+				CBC24AF61C441C1A00FDEE31 /* ViewController.swift */,
+				CBC24AF81C441C1A00FDEE31 /* Main.storyboard */,
+				CBC24AFB1C441C1A00FDEE31 /* Assets.xcassets */,
+				CBC24AFD1C441C1A00FDEE31 /* LaunchScreen.storyboard */,
+				CBC24B001C441C1A00FDEE31 /* Info.plist */,
+			);
+			name = iPepsi;
+			path = iSoda;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBC24AF01C441C1A00FDEE31 /* iPepsi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC24B031C441C1A00FDEE31 /* Build configuration list for PBXNativeTarget "iPepsi" */;
+			buildPhases = (
+				CBC24AED1C441C1A00FDEE31 /* Sources */,
+				CBC24AEE1C441C1A00FDEE31 /* Frameworks */,
+				CBC24AEF1C441C1A00FDEE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPepsi;
+			productName = iSoda;
+			productReference = CBC24AF11C441C1A00FDEE31 /* iPepsi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBC24AE91C441C1A00FDEE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = UAETechMarket;
+				TargetAttributes = {
+					CBC24AF01C441C1A00FDEE31 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CBC24AEC1C441C1A00FDEE31 /* Build configuration list for PBXProject "iPepsi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBC24AE81C441C1A00FDEE31;
+			productRefGroup = CBC24AF21C441C1A00FDEE31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC24AF01C441C1A00FDEE31 /* iPepsi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBC24AEF1C441C1A00FDEE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC24AFF1C441C1A00FDEE31 /* LaunchScreen.storyboard in Resources */,
+				CBC24AFC1C441C1A00FDEE31 /* Assets.xcassets in Resources */,
+				CBC24AFA1C441C1A00FDEE31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC24AED1C441C1A00FDEE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC24AF71C441C1A00FDEE31 /* ViewController.swift in Sources */,
+				CBC24AF51C441C1A00FDEE31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBC24AF81C441C1A00FDEE31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC24AF91C441C1A00FDEE31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBC24AFD1C441C1A00FDEE31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC24AFE1C441C1A00FDEE31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBC24B011C441C1A00FDEE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBC24B021C441C1A00FDEE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBC24B041C441C1A00FDEE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UAETechMarket.iPepsi;
+				PRODUCT_NAME = iPepsi;
+			};
+			name = Debug;
+		};
+		CBC24B051C441C1A00FDEE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UAETechMarket.iPepsi;
+				PRODUCT_NAME = iPepsi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC24AEC1C441C1A00FDEE31 /* Build configuration list for PBXProject "iPepsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC24B011C441C1A00FDEE31 /* Debug */,
+				CBC24B021C441C1A00FDEE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC24B031C441C1A00FDEE31 /* Build configuration list for PBXNativeTarget "iPepsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC24B041C441C1A00FDEE31 /* Debug */,
+				CBC24B051C441C1A00FDEE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBC24AE91C441C1A00FDEE31 /* Project object */;
+}
